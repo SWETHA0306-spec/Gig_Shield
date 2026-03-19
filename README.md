@@ -1,4 +1,4 @@
-# 🛡️ ShieldMate
+#  ShieldMate
 ### *"When the storm hits, we've got you covered."*
 
 > **Guidewire DEVTrails 2026** — AI-Powered Parametric Insurance for India's Gig Economy  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 1. [The Problem](#the-problem)
 2. [Our Solution](#our-solution)
@@ -56,13 +56,13 @@ But they are completely exposed to external disruptions:
 - **Prices** coverage weekly, matching the gig economy's earnings cycle
 - **Detects fraud** intelligently using GPS, activity patterns, and anomaly detection
 
-> ⚠️ **Coverage Scope:** ShieldMate covers **INCOME LOSS ONLY**. No health, accident, vehicle repair, or life coverage is included or implied.
+>  **Coverage Scope:** ShieldMate covers **INCOME LOSS ONLY**. No health, accident, vehicle repair, or life coverage is included or implied.
 
 ---
 
 ## Persona & Scenarios
 
-### 👤 Primary Persona: Raju, Food Delivery Partner
+###  Primary Persona: Raju, Food Delivery Partner
 
 > **Raju**, 28, Bengaluru. Delivers for Swiggy 10 hours/day, 6 days/week.  
 > Average weekly earnings: **₹4,500**. Monthly: **₹18,000**.  
@@ -70,7 +70,7 @@ But they are completely exposed to external disruptions:
 
 ---
 
-### 📖 Scenario 1 — The Monsoon Week
+###  Scenario 1 — The Monsoon Week
 
 Raju wakes up Monday. IMD has issued a red alert — heavy rain all week in Bengaluru.  
 Swiggy reduces order volume by 60%. Raju can only complete 4 deliveries instead of his usual 22.
@@ -86,7 +86,7 @@ Swiggy reduces order volume by 60%. Raju can only complete 4 deliveries instead 
 
 ---
 
-### 📖 Scenario 2 — The Pollution Shutdown
+###  Scenario 2 — The Pollution Shutdown
 
 Delhi, November. AQI hits 380 (Severe). The government bans outdoor activity 6am–10am.  
 Raju's prime earning window is wiped out.
@@ -99,7 +99,7 @@ Raju's prime earning window is wiped out.
 
 ---
 
-### 📖 Scenario 3 — Sudden Bandh
+###  Scenario 3 — Sudden Bandh
 
 A local political bandh is called overnight in Pune. No pickups possible from 8am–2pm.  
 Swiggy pauses operations in the affected zones.
@@ -112,7 +112,7 @@ Swiggy pauses operations in the affected zones.
 
 ---
 
-### 📖 Scenario 4 — Attempted Fraud
+###  Scenario 4 — Attempted Fraud
 
 A delivery partner tries to claim rain disruption, but GPS data shows they were actively moving between delivery points during the "rain event."
 
@@ -162,8 +162,8 @@ A delivery partner tries to claim rain disruption, but GPS data shows they were 
         ↓
 
 [6. PAYOUT OR REJECTION]
-  ✅ Approved → UPI/Bank payout within 2 hours (Razorpay sandbox)
-  ❌ Rejected → Worker notified with reason; appeal option available
+   Approved → UPI/Bank payout within 2 hours (Razorpay sandbox)
+   Rejected → Worker notified with reason; appeal option available
 
         ↓
 
@@ -264,7 +264,7 @@ Both platforms consume the same Node.js REST API, ensuring consistent data and b
 
 ## AI/ML Integration
 
-### 1. 🤖 Dynamic Premium Calculation (Claude API)
+### 1.  Dynamic Premium Calculation (Claude API)
 
 At the time of weekly policy purchase, we call the Claude API with:
 - Worker's zone historical disruption data
@@ -310,7 +310,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
 
 ---
 
-### 2. 🔍 Intelligent Fraud Detection (Claude API + Rule Engine)
+### 2.  Intelligent Fraud Detection (Claude API + Rule Engine)
 
 Every claim passes through a two-layer fraud detection system:
 
@@ -347,7 +347,7 @@ Respond ONLY in JSON format.
 
 ---
 
-### 3. 📊 Predictive Risk Modeling
+### 3.  Predictive Risk Modeling
 
 - **Zone Risk Heatmap:** Built using 3 years of IMD historical weather data + claim patterns, visualized on the admin dashboard
 - **Next-Week Disruption Forecast:** Claude API + OpenWeatherMap 7-day data predicts likely payout exposure for the coming week, helping the insurer manage reserves
@@ -580,7 +580,7 @@ shieldmate/
 
 ---
 
-## 🏁 What Makes ShieldMate Different
+##  What Makes ShieldMate Different
 
 | Feature | Traditional Insurance | ShieldMate |
 |---|---|---|

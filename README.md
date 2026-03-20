@@ -1,4 +1,4 @@
-#  ShieldMate
+<img width="1915" height="1048" alt="image" src="https://github.com/user-attachments/assets/13ddf106-7fae-4e29-8165-75c7c6e44007" />#  ShieldMate
 ### *"When the storm hits, we've got you covered."*
 
 > **Guidewire DEVTrails 2026** — AI-Powered Parametric Insurance for India's Gig Economy  
@@ -592,6 +592,9 @@ shieldmate/
 | Worker Experience | Complex forms | Zero-touch, push notification |
 
 ---
+
+## Training an ML model using the existing API dataset is currently in progress. The prototype link which we submitted represents a visual workflow of the product that we plan to develop.
+
 
 ## Team Innovatrix
 
